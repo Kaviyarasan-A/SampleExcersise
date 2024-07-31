@@ -9,6 +9,7 @@ using System.Net;
 namespace SampleExcersise
 {
     public class Smtp
+       
     {
         public void Send()
         {
@@ -54,7 +55,7 @@ namespace SampleExcersise
 
         public static string ToAddress()
         {
-            return "aruchamy12061969@gmail.com";
+            return "sureshkumar.duraisamy@anaiyaantechnologies.com";
 
         }
     }
