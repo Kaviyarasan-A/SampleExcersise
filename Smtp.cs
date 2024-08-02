@@ -30,8 +30,11 @@ namespace SampleExcersise
                 Credentials = new NetworkCredential(fromAddress, "xyrimgzrvhltvczw")
 
             };
+            ReadAndWrite obj = new ReadAndWrite();
             string subject = "Hii Sir";
-            string body = $"I Am Kaviyarasan @{DateTime.UtcNow:F}";
+            string body = "$ obj.File(); @{DateTime.UtcNow:F}";
+            
+           
             try
             {
                 Console.WriteLine("sending email ");
@@ -59,5 +62,7 @@ namespace SampleExcersise
             return "sureshkumar.duraisamy@anaiyaantechnologies.com";
 
         }
+
+       
     }
 }
