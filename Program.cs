@@ -12,8 +12,12 @@ namespace SampleExcersise
             
             Console.WriteLine("Hi bro your project is executing!");
 
-            Smtp obj = new Smtp();
-            obj.Send();
+           // Smtp obj = new Smtp();
+            //obj.Send();
+
+            ReadAndWrite obt = new ReadAndWrite();
+            obt.File();
+
             
 
 
