@@ -33,7 +33,6 @@ namespace SampleExcersise
             serviceCollection.AddSingleton<Test>();
 
             Smtpmail obj = new Smtpmail(configuration);
-            obj.Send();
             obj.FileLog();
 
 
